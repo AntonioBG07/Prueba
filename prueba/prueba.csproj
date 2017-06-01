@@ -43,7 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="interfaces\Evaluable.cs" />
+    <Compile Include="interfaces\Saludable.cs" />
     <Compile Include="main\Program.cs" />
+    <Compile Include="models\Alumno.cs" />
+    <Compile Include="models\Clase.cs" />
+    <Compile Include="models\Persona.cs" />
+    <Compile Include="models\Profesor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -51,7 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="common\" />
-    <Folder Include="models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

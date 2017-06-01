@@ -5,14 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace prueba
+namespace prueba.interfaces
 {
-    class Program
+    interface Evaluable
     {
-        static void Main(string[] args)
-        { 
-           
-        }
+        void Evaluar(Alumno a, float nota);
     }
 }
-
